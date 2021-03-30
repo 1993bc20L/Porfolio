@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #0A192F;
+}
+
+.wrapper {
+    margin-top: 3%;
+}
+
+nav {
+    width: 1349px;
+    height: 100px;
+    background: #0A192F;
+    padding: 0 50px;
+}
+
+nav .logo {
+    float: left;
+}
+
+.fa-bold {
+    background: #CCD6F6;
+    position: absolute;
+    left: 35%;
+    color: yellow;
+    margin-top: -7px;
+}
+
+nav .searchbar {
+    float: right;
+    margin-right: 10%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav .searchbar ul {
+    display: flex;
+    position: relative;
+    color: #CCD6F6;
+    position: relative;
+    list-style: none;
+}
+
+nav .searchbar ul a {
+    color: #CCD6F6;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px 10px 10px 50px;
+    font-family: 'Recursive',
+        sans-serif;
+    font-size: 13px;
+
+}
+
+nav .searchbar ul a:hover {
+    color: #64FFDA;
+}
+
+#number {
+    color: #64FFDA;
+}
+
+.cv {
+    font-size: 13px;
+    margin-right: 60px;
+    padding: 10px;
+    color: #64FFDA;
+    border: 0.5px solid #64FFDA;
+    border-radius: 8px;
+    text-decoration: none;
+    position: absolute;
+    top: 5%;
+    right: 1%;
+}
+
+.cv:hover {
+    background: #64ffda1a;
+}
+
+section {
+    margin-left: 100px;
+}
+
+
+section .firsthead {
+    padding-bottom: 30px;
+    line-height: 1.1;
+    color: #64FFDA;
+    font-size: 15px;
+    letter-spacing: 3px;
+    width: 200px;
+    height: 47px;
+    margin: 0 0 30px 4px;
+}
+
+section .secondhead {
+    margin: 0;
+    max-width: 700px;
+    max-height: 88px;
+    font-size: 30px;
+    color: #CCD6F6;
+    font-family: 'Fira Code',
+        monospace;
+}
+
+section .thirdhead {
+    display: block;
+    position: absolute;
+    top: 45%;
+    margin: 10px 0px 0px;
+    color: #8892B0;
+    font-size: 50px;
+    font-family: 'Titillium Web',
+        sans-serif;
+    max-width: 815px;
+    max-height: 72px;
+}
+
+section .firstParagraph {
+    position: absolute;
+    top: 65%;
+    color: #8892B0;
+    margin: 20px 0px 0px;
+    line-height: 1.5;
+    letter-spacing: 2.5px;
+    font-size: 20px;
+    font-family: 'Titillium Web',
+        sans-serif;
+    max-width: 800px;
+    max-height: 105;
+}
+
+#outbox {
+    color: #64FFDA;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.myImage {
+    position: absolute;
+    top: 30%;
+    left: 75%;
+}
+
+.myImage .pic {
+    border-radius: 50%;
+}
+
+.emailLink {
+    font-size: 14px;
+    font-family: 'Fira Code',
+        monospace;
+    padding: 20px 28px;
+    margin: 50px 0px 0px;
+    border: 0.5px solid #64FFDA;
+    border-radius: 8px;
+    position: absolute;
+    top: 90%;
+    left: 7%;
+}
+
+.emailLink a {
+    text-decoration: none;
+    color: #64FFDA;
+}
+
+.emailLink:hover {
+    background: #64ffda1a;
+}
+
+.aboutMe {
+    display: block;
+    position: relative;
+    margin-top: 500px;
+    margin-left: 100px;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+#About {
+    text-transform: capitalize;
+    font-weight: 550;
+    font-family: 'Titillium Web',
+        sans-serif;
+    font-size: 32px;
+    color: #CCD6F6;
+}
+
+#uno {
+    color: #64FFDA;
+}
+
+.aboutMe .para1 {
+    display: block;
+    color: #8892B0;
+    margin: 0px 0px 15px;
+    font-family: 'Titillium Web',
+        sans-serif;
+    line-height: 1.3;
+    font-size: 20px;
+}
+
+.para3 {
+    margin-top: 15px;
+}
+
+.para3 .quote {
+    display: block;
+    color: #8892B0;
+    margin: 10px 0px 15px;
+    font-family: 'Titillium Web',
+        sans-serif;
+    line-height: 1.3;
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.para3 span {
+    color: #9df3df;
+    font-family: 'Titillium Web',
+    sans-serif;
+    line-height: 1.3;
+    font-size: 20px;
+    font-weight: 550;
+    margin-top: 30px;
+}
+
+.aboutMe .languages li{
+    list-style: none;
+    color: #8892B0;
+    font-size: 13px;
+}
+
+.aboutMe .languages li::before {
+    content: "▹";
+    /* "▹"	white right-pointing small triangle*/
+}
+
+/* .experince {
+    margin-top: 100px;
+} */
